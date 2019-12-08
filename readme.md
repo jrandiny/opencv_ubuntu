@@ -1,5 +1,7 @@
 # Opencv Ubuntu
 
+![status](https://github.com/jrandiny/opencv_ubuntu/workflows/Build/badge.svg)
+
 Opencv build for Ubuntu
 
 Currently only building for Ubuntu 18.04 only
