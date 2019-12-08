@@ -1,4 +1,4 @@
-Package: opencv
+Package: <cvpackage>
 Version: <cvversion>
 Architecture: amd64
 Maintainer: jrandiny <jrandiny@gmail.com>

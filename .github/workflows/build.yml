@@ -8,7 +8,7 @@ jobs:
       fail-fast: false
       matrix:
         runner: [ubuntu-18.04]
-#         cv-version: [4.1.2, 3.4.8]
+        cv-version: [4.1.2, 3.4.8]
     
     runs-on: ${{ matrix.runner }}
 
@@ -17,4 +17,5 @@ jobs:
     - name: Download depedencies
       run: ./dep.sh
     - name: Build deb
-      run: ./build.sh
+      run: ./build.sh {{ matrix.cv-version }}
+

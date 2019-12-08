@@ -1,12 +1,14 @@
 #!/bin/bash
 set -e
 
-cvVersion="3.4.7"
+cvVersion="$1"
+cvPrefix="${1:0:1}"
 
 # Copy required file before checkout
 mkdir ~/output
 cp -r DEBIAN ~/output/DEBIAN
 sed -i "/Version: <cvversion>/c\Version: ${cvVersion}" ~/output/DEBIAN/control
+sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/control
 
 cat ~/output/DEBIAN/control
 
