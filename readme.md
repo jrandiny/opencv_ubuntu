@@ -18,19 +18,19 @@ sudo add-apt-repository "deb [arch=amd64] https://jrandiny.github.io/opencv_ubun
 ```
 
 Update and install
-```
+```bash
 sudo apt update
-sudo apt install opencv
+sudo apt install opencv4 # or opencv3
 ```
 
 ## Build configuration
 ```
--- General configuration for OpenCV 4.1.1 =====================================
---   Version control:               4.1.1
+-- General configuration for OpenCV 4.1.2 =====================================
+--   Version control:               4.1.2-dirty
 -- 
 --   Platform:
---     Timestamp:                   2019-09-01T06:24:09Z
---     Host:                        Linux 4.15.0-1040-gcp x86_64
+--     Timestamp:                   2019-12-08T12:12:50Z
+--     Host:                        Linux 5.0.0-1025-azure x86_64
 --     CMake:                       3.12.4
 --     CMake generator:             Unix Makefiles
 --     CMake build tool:            /usr/bin/make
@@ -41,26 +41,26 @@ sudo apt install opencv
 --       requested:                 SSE3
 --     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
 --       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
---       SSE4_1 (15 files):         + SSSE3 SSE4_1
+--       SSE4_1 (16 files):         + SSSE3 SSE4_1
 --       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
 --       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
 --       AVX (5 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
 --       AVX2 (29 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
---       AVX512_SKX (5 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
+--       AVX512_SKX (6 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
 -- 
 --   C/C++:
 --     Built as dynamic libs?:      YES
---     C++ Compiler:                /usr/bin/g++  (ver 7.4.0)
+--     C++ Compiler:                /usr/bin/c++  (ver 7.4.0)
 --     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
 --     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
---     C Compiler:                  /usr/bin/gcc
+--     C Compiler:                  /usr/bin/cc
 --     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
 --     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
 --     Linker flags (Release):      -Wl,--gc-sections  
 --     Linker flags (Debug):        -Wl,--gc-sections  
---     ccache:                      YES
+--     ccache:                      NO
 --     Precompiled headers:         NO
---     Extra dependencies:          dl m pthread rt
+--     Extra dependencies:          dl m pthread rt /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so
 --     3rdparty dependencies:
 -- 
 --   OpenCV modules:
@@ -74,9 +74,9 @@ sudo apt install opencv
 -- 
 --   GUI: 
 --     QT:                          YES (ver 5.9.5)
---       QT OpenGL support:         NO
+--       QT OpenGL support:         YES (Qt5::OpenGL 5.9.5)
 --     GTK+:                        NO
---     OpenGL support:              NO
+--     OpenGL support:              YES (/usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so)
 --     VTK support:                 NO
 -- 
 --   Media I/O: 
@@ -86,7 +86,7 @@ sudo apt install opencv
 --     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.34)
 --     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.0.9)
 --     JPEG 2000:                   build (ver 1.900.1)
---     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath.so /usr/lib/x86_64-linux-gnu/libIlmImf.so /usr/lib/x86_64-linux-gnu/libIex.so /usr/lib x86_64-linux-gnu/libHalf.so /usr/lib/x86_64-linux-gnu/libIlmThread.so (ver 2.2.0)
+--     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath.so /usr/lib/x86_64-linux-gnu/libIlmImf.so /usr/lib/x86_64-linux-gnu/libIex.so /usr/lib/x86_64-linux-gnu/libHalf.so /usr/lib/x86_64-linux-gnu/libIlmThread.so (ver 2.2.0)
 --     HDR:                         YES
 --     SUNRASTER:                   YES
 --     PXM:                         YES
@@ -109,18 +109,20 @@ sudo apt install opencv
 -- 
 --   Other third-party libraries:
 --     Intel IPP:                   2019.0.0 Gold [2019.0.0]
---            at:                   /home/travis/build/jrandiny/opencv_ubuntu/build/3rdparty/ippicv/ippicv_lnx/icv
+--            at:                   /home/runner/work/opencv_ubuntu/opencv_ubuntu/opencv/build/3rdparty/ippicv/ippicv_lnx/icv
 --     Intel IPP IW:                sources (2019.0.0)
---               at:                /home/travis/build/jrandiny/opencv_ubuntu/build/3rdparty/ippicv/ippicv_lnx/iw
+--               at:                /home/runner/work/opencv_ubuntu/opencv_ubuntu/opencv/build/3rdparty/ippicv/ippicv_lnx/iw
 --     Lapack:                      NO
 --     Eigen:                       YES (ver 3.3.4)
 --     Custom HAL:                  NO
 --     Protobuf:                    build (3.5.1)
 -- 
 --   OpenCL:                        YES (no extra features)
---     Include path:                /home/travis/build/jrandiny/opencv_ubuntu/3rdparty/include/opencl/1.2
+--     Include path:                /home/runner/work/opencv_ubuntu/opencv_ubuntu/opencv/3rdparty/include/opencl/1.2
 --     Link libraries:              Dynamic load
 -- 
---   Python (for build):            /opt/pyenv/shims/python2.7
+--   Python (for build):            /usr/bin/python2.7
+-- 
+--   Install to:                    /usr/local
 -- -----------------------------------------------------------------
 ```
