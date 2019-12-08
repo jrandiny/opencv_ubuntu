@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: bionic
+Date: Sun, 08 Dec 2019 11:35:31 UTC
+Architectures: amd64
+Components: main
+Description: OpenCV repo
+MD5Sum:
+ 3c99d86be0e618ac653822e325414829 2029 main/binary-amd64/Packages
+ 513b3e5811effd984ebf206fe8115a92 989 main/binary-amd64/Packages.gz
+ 40e0f6c0e119eda6185d3a86b20b3a59 61 main/binary-amd64/Release
+SHA1:
+ b9c0fa052e05c79cdffd1bd7f398a8c0d4f5c580 2029 main/binary-amd64/Packages
+ 85b0ac2148d83b8bfe08f006337fee6fd6204d95 989 main/binary-amd64/Packages.gz
+ e433d597e299f016770a0e5e31281973c7705d53 61 main/binary-amd64/Release
+SHA256:
+ 69a4853c8ae63e53f306a091a6101f9e08691a5d31ad8d6effc76725127f8fe3 2029 main/binary-amd64/Packages
+ 31fe8364468a66702f8f891cb6124282910a03aa9dbad05fe15417466c0b3fea 989 main/binary-amd64/Packages.gz
+ 01291348f613e069050f7313cd4a2af9389ef75d5d99a6cb357cc3f5967f6f96 61 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEB4d2pc+UBEyypcX43UrhKon79ewFAl3s4AMACgkQ3UrhKon7
+9exOyA/8DolhzjsMtkESFe7WVRohROg2rlBI9C0fi0m8njQ0qn6GtJi6nfD2V49b
+U3Z1OvwFz3Wcsgkg/7jtRLSmaqDdhRh6utr2KW9hUzPVJjDogdqNqJDkGR3b4At+
+aolutar1aU4DRt7CP9GwjLmnZc4ZA4Ftk6gnMKJVjIHBl+THNcGd1j66R3rKpQpC
+UkGTEZevzTPgP9W81qsezEg6gDWOUbgZYxVy8qz5mkwVx+C7U8JE1vkznZdvvHdx
+onbJ/VGyVOSluVjLc1B7X1cpna1UYIA+0lzK7k92Fut4ROsWTtU5VTAn4XNxxL1u
+2G/6bVAsKVLP5Z2g0dbTwYDnoiAJfBY7+V/0A7nklEDkwbacBrHkZrNOHNveo2pM
+bNBiz1jwo2QSHSx2Lc9AuK96BHbKxHfLX5ZRFaASnFLt36Hzcg03qWckn00E7VkB
+sbrfAvseq1z0pXKDu2hRroF5S6j8hJZVvSpQm27wSTGPW4a7DztgCs9q26Ws6Yo/
+O1hwmqkMktlpwCyoL1sZNkH5FIjVVBl/Ch4s7cDfjNuC0kKzWYAmQp//PdEKIiaA
+XmF3wvZdIqJGGfxUvfGdQ3V7oEX9t+mrTKeCtJ1y1WG6agyo/4eUORgfhmTeSRj6
+t2fuSV6DBwKvhTijD9H5nTiqp5mFfEw7hz1hGsPJ0QMl2SjwK7U=
+=Zo1h
+-----END PGP SIGNATURE-----

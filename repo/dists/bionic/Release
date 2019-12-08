@@ -1,0 +1,17 @@
+Codename: bionic
+Date: Sun, 08 Dec 2019 11:35:31 UTC
+Architectures: amd64
+Components: main
+Description: OpenCV repo
+MD5Sum:
+ 3c99d86be0e618ac653822e325414829 2029 main/binary-amd64/Packages
+ 513b3e5811effd984ebf206fe8115a92 989 main/binary-amd64/Packages.gz
+ 40e0f6c0e119eda6185d3a86b20b3a59 61 main/binary-amd64/Release
+SHA1:
+ b9c0fa052e05c79cdffd1bd7f398a8c0d4f5c580 2029 main/binary-amd64/Packages
+ 85b0ac2148d83b8bfe08f006337fee6fd6204d95 989 main/binary-amd64/Packages.gz
+ e433d597e299f016770a0e5e31281973c7705d53 61 main/binary-amd64/Release
+SHA256:
+ 69a4853c8ae63e53f306a091a6101f9e08691a5d31ad8d6effc76725127f8fe3 2029 main/binary-amd64/Packages
+ 31fe8364468a66702f8f891cb6124282910a03aa9dbad05fe15417466c0b3fea 989 main/binary-amd64/Packages.gz
+ 01291348f613e069050f7313cd4a2af9389ef75d5d99a6cb357cc3f5967f6f96 61 main/binary-amd64/Release

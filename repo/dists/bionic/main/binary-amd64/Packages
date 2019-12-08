@@ -1,0 +1,14 @@
+Package: opencv
+Version: 3.4.7
+Architecture: amd64
+Maintainer: jrandiny <jrandiny@gmail.com>
+Depends: pkg-config, qt5-default, x264, v4l-utils, gir1.2-atk-1.0, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-2.0, gir1.2-pango-1.0, hdf5-helpers, libaec0, libarchive13, libatlas3-base, libavcodec57, libavformat57, libavresample3, libavutil55, libbluray2, libchromaprint1, libclang1-6.0, libcrystalhd3, libdc1394-22, libdouble-conversion1, libevdev2, libfaac0, libffms2-4, libgd3, libgflags2.2, libgles1, libgles2, libglu1-mesa, libgme0, libgoogle-glog0v5, libgpac4, libgphoto2-6, libgphoto2-port12, libgsm1, libgstreamer-gl1.0-0, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libgudev-1.0-0, libhdf5-100, libhdf5-cpp-100, libinput-bin, libinput10, libmp3lame0, libmpg123-0, libmtdev1, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopengl0, libopenjp2-7, libopenmpt0, libopus0, liborc-0.4-0, libprotobuf-lite10, libprotobuf10, libprotoc10, libqt5concurrent5, libqt5core5a, libqt5dbus5, libqt5gui5, libqt5network5, libqt5printsupport5, libqt5sql5, libqt5test5, libqt5widgets5, libqt5xml5, libraw1394-11, librhash0, libshine3, libsnappy1v5, libsoxr0, libspeex1, libssh-gcrypt-4, libswresample2, libswscale4, libsz2, libtbb2, libtheora0, libtwolame0, libv4l-0, libv4l2rds0, libv4lconvert0, libva-drm2, libva-x11-2, libva2, libvdpau1, libvorbis0a, libvorbisenc2, libvorbisfile3, libvpx5, libwacom-common, libwacom2, libwavpack1, libwayland-bin, libwebp6, libwebpmux3, libx264-152, libx265-146, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render-util0, libxcb-xinerama0, libxcb-xkb1, libxine2-bin, libxkbcommon-x11-0, libxml2-utils, libxvidcore4, libzvbi-common, libzvbi0, libeigen3-dev
+Priority: standard
+Section: libs
+Filename: pool/main/o/opencv/opencv_3.4.7_amd64.deb
+Size: 47340928
+SHA256: 986ef89ab4920293d24d146485fea25119490b93c2f458c4acbbe63700c1f6f6
+SHA1: a4f6f752f72685728236365149ff239e6c659b09
+MD5sum: 3f1b17fed6980e2a108638ac584de774
+Description: Computer vision library
+
