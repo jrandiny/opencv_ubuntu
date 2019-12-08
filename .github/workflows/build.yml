@@ -17,5 +17,5 @@ jobs:
     - name: Download depedencies
       run: ./dep.sh
     - name: Build deb
-      run: ./build.sh {{ matrix.cv-version }}
+      run: ./build.sh ${{ matrix.cv-version }}
 
