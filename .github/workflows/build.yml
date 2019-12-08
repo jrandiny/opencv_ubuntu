@@ -10,7 +10,7 @@ jobs:
         runner: [ubuntu-18.04]
 #         cv-version: [4.1.2, 3.4.8]
     
-    runs-on: ${{runner}}
+    runs-on: ${{ matrix.runner }}
 
     steps:
     - uses: actions/checkout@v1
