@@ -21,7 +21,7 @@ jobs:
     - name: Github pages APT repo
       uses: jrandiny/apt-repo-action@v1.0.0
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GH_PAT }}
         arch: amd64
         version: bionic
         file: opencv*.deb
