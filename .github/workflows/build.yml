@@ -18,4 +18,14 @@ jobs:
       run: ./dep.sh
     - name: Build deb
       run: ./build.sh ${{ matrix.cv-version }}
+    - name: Github pages APT repo
+      uses: jrandiny/apt-repo-action@v1.0.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        arch: amd64
+        version: bionic
+        file: opencv*.deb
+        file_target_version: bionic
+        private_key: ${{ secrets.APT_SIGNING_KEY }}
+        key_passphrase: ${{ secrets.APT_PASSPHRASE }}
 
