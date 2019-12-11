@@ -1,17 +1,17 @@
 Codename: bionic
-Date: Sun, 08 Dec 2019 13:58:44 UTC
+Date: Wed, 11 Dec 2019 09:52:31 UTC
 Architectures: amd64
 Components: main
-Description: OpenCV repo
+Description: jrandiny/opencv_ubuntu
 MD5Sum:
  dc44a3b1c4632c77f8c4ee82525ba751 4064 main/binary-amd64/Packages
  1b1f855daa3151a20ec5eda2045bf146 1141 main/binary-amd64/Packages.gz
- 40e0f6c0e119eda6185d3a86b20b3a59 61 main/binary-amd64/Release
+ 071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
 SHA1:
  c81616302edde17e835bb9a5ced17dce254b2374 4064 main/binary-amd64/Packages
  dc42c4ff1dd3d54ba0961c09a1002f69f33fb5b1 1141 main/binary-amd64/Packages.gz
- e433d597e299f016770a0e5e31281973c7705d53 61 main/binary-amd64/Release
+ 8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
 SHA256:
  559b0d292f84436491f70873492726f9b847b8ead46614750d72bba305109f4a 4064 main/binary-amd64/Packages
  8c6d1ada75e0cc302d1d1274367167f82fc0176f4c2528508a4eac564658cb24 1141 main/binary-amd64/Packages.gz
- 01291348f613e069050f7313cd4a2af9389ef75d5d99a6cb357cc3f5967f6f96 61 main/binary-amd64/Release
+ 07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release

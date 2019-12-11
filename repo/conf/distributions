@@ -1,5 +1,7 @@
+Description: jrandiny/opencv_ubuntu
 Codename: bionic
 Architectures: amd64
 Components: main
-Description: OpenCV repo
 SignWith: 88E2E4767C6AF19D067399FFFB450F29394B696F
+
+
