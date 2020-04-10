@@ -12,9 +12,9 @@ sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/cont
 
 cat ~/output/DEBIAN/control
 
-git clone https://github.com/opencv/opencv.git
+wget -O opencv.zip https://github.com/opencv/opencv/archive/${cvVersion}.zip
+unzip opencv.zip
 cd opencv
-git checkout $cvVersion
 
 patch -p1 < ../patch/eigen.patch
 
