@@ -14,7 +14,7 @@ cat ~/output/DEBIAN/control
 
 wget -O opencv.zip https://github.com/opencv/opencv/archive/${cvVersion}.zip
 unzip opencv.zip
-cd opencv
+cd opencv-${cvVersion}
 
 patch -p1 < ../patch/eigen.patch
 
