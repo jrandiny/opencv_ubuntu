@@ -23,13 +23,18 @@ mkdir build
 cd build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
-      -D INSTALL_C_EXAMPLES=ON \
-      -D INSTALL_PYTHON_EXAMPLES=ON \
       -D WITH_TBB=ON \
       -D WITH_V4L=ON \
       -D WITH_QT=ON \
       -D WITH_OPENGL=ON \
+      -D WITH_OPENMP=ON \
+      -D WITH_OPENCL=ON \
+      -D WITH_IPP=ON \
+      -D WITH_CSTRIPES=ON \
       -D BUILD_EXAMPLES=OFF \
+      -D BUILD_DOCS=OFF \
+      -D BUILD_PERF_TESTS=OFF \
+      -D BUILD_TESTS=OFF \
       -D BUILD_JAVA=OFF \
       -D OPENCV_GENERATE_PKGCONFIG=ON ..
 
