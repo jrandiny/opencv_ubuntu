@@ -13,7 +13,7 @@ sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/cont
 cat ~/output/DEBIAN/control
 
 wget -O opencv.zip https://github.com/opencv/opencv/archive/${cvVersion}.zip
-unzip opencv.zip
+unzip opencv.zip && rm opencv.zip
 cd opencv-${cvVersion}
 
 patch -p1 < ../patch/eigen.patch
