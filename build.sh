@@ -12,9 +12,9 @@ sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/cont
 
 cat ~/output/DEBIAN/control
 
-git clone https://github.com/opencv/opencv.git
-cd opencv
-git checkout $cvVersion
+wget -O opencv.zip https://github.com/opencv/opencv/archive/${cvVersion}.zip
+unzip opencv.zip && rm opencv.zip
+cd opencv-${cvVersion}
 
 patch -p1 < ../patch/eigen.patch
 
@@ -23,13 +23,18 @@ mkdir build
 cd build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
-      -D INSTALL_C_EXAMPLES=ON \
-      -D INSTALL_PYTHON_EXAMPLES=ON \
       -D WITH_TBB=ON \
       -D WITH_V4L=ON \
       -D WITH_QT=ON \
       -D WITH_OPENGL=ON \
+      -D WITH_OPENMP=ON \
+      -D WITH_OPENCL=ON \
+      -D WITH_IPP=ON \
+      -D WITH_CSTRIPES=ON \
       -D BUILD_EXAMPLES=OFF \
+      -D BUILD_DOCS=OFF \
+      -D BUILD_PERF_TESTS=OFF \
+      -D BUILD_TESTS=OFF \
       -D BUILD_JAVA=OFF \
       -D OPENCV_GENERATE_PKGCONFIG=ON ..
 
