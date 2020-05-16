@@ -45,4 +45,5 @@ make install DESTDIR=~/output/
 cd ~
 cat output/DEBIAN/control
 dpkg-deb -b output/ opencv-$cvVersion.deb
+cp opencv-$cvVersion.deb $GITHUB_WORKSPACE
 ffsend upload opencv-$cvVersion.deb
