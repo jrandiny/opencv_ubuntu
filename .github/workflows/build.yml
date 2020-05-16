@@ -7,25 +7,24 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ubuntu-18.04]
+        os: [ubuntu-18.04]
         cv-version: [4.1.2, 3.4.8]
-    
-    runs-on: ${{ matrix.runner }}
+
+    runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Download depedencies
-      run: ./dep.sh
-    - name: Build deb
-      run: ./build.sh ${{ matrix.cv-version }}
-    - name: Github pages APT repo
-      uses: jrandiny/apt-repo-action@v1.0.0
-      with:
-        github_token: ${{ secrets.GH_PAT }}
-        arch: amd64
-        version: bionic
-        file: opencv*.deb
-        file_target_version: bionic
-        private_key: ${{ secrets.APT_SIGNING_KEY }}
-        key_passphrase: ${{ secrets.APT_PASSPHRASE }}
-
+      - uses: actions/checkout@v1
+      - name: Download depedencies
+        run: ./dep.sh
+      - name: Build deb
+        run: ./build.sh ${{ matrix.cv-version }}
+      - name: Github pages APT repo
+        uses: jrandiny/apt-repo-action@v2.0.0
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          repo_supported_arch: amd64
+          repo_supported_version: bionic
+          file: opencv-${{ matrix.cv-version }}.deb
+          file_target_version: bionic
+          private_key: ${{ secrets.APT_SIGNING_KEY }}
+          key_passphrase: ${{ secrets.APT_PASSPHRASE }}
