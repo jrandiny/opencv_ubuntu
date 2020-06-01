@@ -19,7 +19,7 @@ jobs:
       - name: Build deb
         run: ./build.sh ${{ matrix.cv-version }}
       - name: Github pages APT repo
-        uses: jrandiny/apt-repo-action@v2.0.0
+        uses: jrandiny/apt-repo-action@v2.0.1
         with:
           github_token: ${{ secrets.GH_PAT }}
           repo_supported_arch: amd64
