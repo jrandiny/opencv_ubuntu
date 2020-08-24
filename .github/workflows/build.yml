@@ -17,7 +17,7 @@ jobs:
       - name: Download depedencies
         run: ./dep.sh
       - name: Build deb
-        run: ./build.sh ${{ matrix.cv-version }}
+        run: ./build.sh ${{ matrix.cv-version }} ${{ matrix.os }}
       - name: Github pages APT repo
         uses: jrandiny/apt-repo-action@v2.0.1
         with:

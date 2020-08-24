@@ -2,11 +2,13 @@
 set -e
 
 cvVersion="$1"
+ubuntuVersion="$2"
 cvPrefix="${1:0:1}"
 
 # Copy required file before checkout
 mkdir ~/output
 cp -r DEBIAN ~/output/DEBIAN
+mv ~/output/DEBIAN/control-${ubuntuVersion} ~/output/DEBIAN/control
 sed -i "/Version: <cvversion>/c\Version: ${cvVersion}" ~/output/DEBIAN/control
 sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/control
 
