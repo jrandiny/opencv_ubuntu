@@ -4,7 +4,7 @@
 
 Opencv build for Ubuntu
 
-Currently only building for Ubuntu 18.04 only
+Currently building for Ubuntu 18.04 and Ubuntu 20.04 (experimental)
 
 ## Usage
 
