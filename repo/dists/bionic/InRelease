@@ -2,35 +2,35 @@
 Hash: SHA512
 
 Codename: bionic
-Date: Mon, 24 Aug 2020 04:50:12 UTC
+Date: Mon, 24 Aug 2020 04:51:55 UTC
 Architectures: amd64
 Components: main
 Description: jrandiny/opencv_ubuntu
 MD5Sum:
- f25074718f8bbf7341bbc900f89c4025 4080 main/binary-amd64/Packages
- d781015b7bbaaa85eca00668959350d5 1152 main/binary-amd64/Packages.gz
+ 06c70032ef8836963d24269009c184d9 4094 main/binary-amd64/Packages
+ 559216706f019712dc2c3b7fad1d0e78 1148 main/binary-amd64/Packages.gz
  071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
 SHA1:
- 456d41cc397d42fee064d5f0e811ab73be3672e1 4080 main/binary-amd64/Packages
- 79f7ccf5e73511dd5c5f1f76d3d51a115a641579 1152 main/binary-amd64/Packages.gz
+ 41ea5c984e5a746fbeab4154b42596acfb0932e7 4094 main/binary-amd64/Packages
+ 7b1adc69912701b013884ffd9fa44c8175c76362 1148 main/binary-amd64/Packages.gz
  8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
 SHA256:
- c0fcabee8e12ef18918d47db26344778327f97eadb90f42d32c4b71ba598a512 4080 main/binary-amd64/Packages
- 3ddbbc8d34028d3b51be2ba517d3104d3d9e3a27ffc8a374c88d44a17b8edd50 1152 main/binary-amd64/Packages.gz
+ 51d6d5de3ba875809a574f2fd4961c7f673c7d7dfe285d0bc42f8781e970dcba 4094 main/binary-amd64/Packages
+ 81aab0bced63648aaa12045b1c2c25b337cf19b78fa6d644d1843d4106d7038a 1148 main/binary-amd64/Packages.gz
  07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEB4d2pc+UBEyypcX43UrhKon79ewFAl9DRwQACgkQ3UrhKon7
-9ex6NxAAiii+9CuPdMFv5ax9pPSdNs+4ZCY5KGOAxA7jWjc+2nBm7CgnSPAHeDPS
-ADKlTO75GmQI0PtAsRpRCFUx8uLnYU+Wuzu7Xjs9ZHA6ryrCczpkJz2KudeXuAF/
-B1GJ4TycnPuZpbe2ancDmUETOO3v2egfLxTBuyij3323EKF3DsyNTZ9By2H0VVCp
-elknKbnruFImScnIMgjyr2T6sSDGOr6zrgjzPVcuf7Rb9gIN+0F9a2xPQ4znN1Jl
-5SajCYdrUUa/c8f0fTP6yNh/7FuRzuq5tmmdocUA/ECPxP2tFO+TlR588HXrHqk9
-XaUONbpe/EH0A9010T4tinx5VTcK+NPQ/rTfuazIaUcu6/RzmzbA81r3DRLHFzpo
-SiIR/y0Oeab5/2kPv93XRtuJ6x2sjD3x+K1NwJKpTHOuC+ojbqnDcYVcK60I89tx
-voAzHoXxDB310bTWFKmg9BR9hsENszFDj9OCq42n+RLwvEjuavsZ20P8EgpNcWZk
-+VvYaZt5Y3f9EhCWdrnJD4WwkJaIuX/Ma46h3PdcmhPx3g47HvKQasOgtbgbmA/S
-eAlgL3cng9JsuasUQLH2zcDaXBF+yjKHOwJVStXiWbQVNI5OqTZbad/Kgb52J04D
-M+I9TyOxBpbIWTNjBSzE0VDrnj6GTbcogZLyBzAsH90Z20IzkOE=
-=RW1b
+iQIzBAEBCgAdFiEEB4d2pc+UBEyypcX43UrhKon79ewFAl9DR2sACgkQ3UrhKon7
+9ezJgQ//SPvBE6gH9e1yfgV7mhGcvejKjjsx8Izk2Q9UjSEPFVWf70AvOIWUBz37
+ACi9njs0jdT0HB2c0lCegiU/GTppkekKvLfxE/WKcGH51Zy+Wuh6AGgr3yqRiNZI
+yaCkLOvGBIT271KISgfAlu/TK5c+Lv2uVQsoSspJRlWuPxT4IJUBDzhCigSajt2E
+PKWyispHXkfVm09flFdlmR/st6ZwffKEyNS0M0FwqoLAWYYNmEgtY11+XEsXB90P
+Doh5ieH47vFeJVnohXdpIqbOspAv0AkvYEbzY+V1MscLdQiMSjftC2BHy1AmW/1l
+8FX4sPCbGm0f6IPWL714ebqCtgD1xAN8Yd1azB6Sf+LkEW+jChZ0jpEKm2e75XJ8
+gfQxOUyCboQA/snX97BeE0ZgXcwfO99J/bfNUDXKpXTab8ymRHUJFinXTnHR6NAM
+4PNeACa3Ex8Jsi8dxK97Y++RNsDrd4A11rbrBbmkMcggdsp6NYnh5yiAG/krfGKx
+aYlWP/mVfQ8jDOcYWcjXWGpkSLQJDV9D3qY2DLNseOgMjkc/EX1WybChChdi1401
+BU6Z8R8/gZqkpamCt+HOyER4fU3KF0YsDhAsTbGrRkbzpVNXMFTmrRhNTYq6VTe5
+yqyV14ycIFuE3n1n0E6YCn1hWkSd9JZDzdaoF5hqFJuSzsmi6hU=
+=mBN9
 -----END PGP SIGNATURE-----

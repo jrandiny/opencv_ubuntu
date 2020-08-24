@@ -1,17 +1,17 @@
 Codename: bionic
-Date: Mon, 24 Aug 2020 04:50:12 UTC
+Date: Mon, 24 Aug 2020 04:51:55 UTC
 Architectures: amd64
 Components: main
 Description: jrandiny/opencv_ubuntu
 MD5Sum:
- f25074718f8bbf7341bbc900f89c4025 4080 main/binary-amd64/Packages
- d781015b7bbaaa85eca00668959350d5 1152 main/binary-amd64/Packages.gz
+ 06c70032ef8836963d24269009c184d9 4094 main/binary-amd64/Packages
+ 559216706f019712dc2c3b7fad1d0e78 1148 main/binary-amd64/Packages.gz
  071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
 SHA1:
- 456d41cc397d42fee064d5f0e811ab73be3672e1 4080 main/binary-amd64/Packages
- 79f7ccf5e73511dd5c5f1f76d3d51a115a641579 1152 main/binary-amd64/Packages.gz
+ 41ea5c984e5a746fbeab4154b42596acfb0932e7 4094 main/binary-amd64/Packages
+ 7b1adc69912701b013884ffd9fa44c8175c76362 1148 main/binary-amd64/Packages.gz
  8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
 SHA256:
- c0fcabee8e12ef18918d47db26344778327f97eadb90f42d32c4b71ba598a512 4080 main/binary-amd64/Packages
- 3ddbbc8d34028d3b51be2ba517d3104d3d9e3a27ffc8a374c88d44a17b8edd50 1152 main/binary-amd64/Packages.gz
+ 51d6d5de3ba875809a574f2fd4961c7f673c7d7dfe285d0bc42f8781e970dcba 4094 main/binary-amd64/Packages
+ 81aab0bced63648aaa12045b1c2c25b337cf19b78fa6d644d1843d4106d7038a 1148 main/binary-amd64/Packages.gz
  07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release
