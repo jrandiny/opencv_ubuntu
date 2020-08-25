@@ -18,13 +18,23 @@ jobs:
         run: ./dep.sh
       - name: Build deb
         run: ./build.sh ${{ matrix.cv-version }} ${{ matrix.os }}
+
+      - name: Set Ubuntu codename (Bionic)
+        if: ${{ matrix.os == 'ubuntu-18.04'}}
+        run: echo '::set-env name=UBUNTU_CODENAME::bionic'
+      - name: Set Ubuntu codename (Focal)
+        if: ${{ matrix.os == 'ubuntu-20.04'}}
+        run: echo '::set-env name=UBUNTU_CODENAME::focal'
+
       - name: Github pages APT repo
         uses: jrandiny/apt-repo-action@v2.0.1
         with:
           github_token: ${{ secrets.GH_PAT }}
           repo_supported_arch: amd64
-          repo_supported_version: bionic
+          repo_supported_version: |
+            bionic
+            focal
           file: opencv-${{ matrix.cv-version }}.deb
-          file_target_version: bionic
+          file_target_version: ${{ env.UBUNTU_CODENAME }}
           private_key: ${{ secrets.APT_SIGNING_KEY }}
           key_passphrase: ${{ secrets.APT_PASSPHRASE }}
