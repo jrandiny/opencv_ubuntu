@@ -1,17 +1,17 @@
 Codename: focal
-Date: Tue, 25 Aug 2020 03:02:31 UTC
+Date: Tue, 25 Aug 2020 03:04:19 UTC
 Architectures: amd64
 Components: main
 Description: jrandiny/opencv_ubuntu
 MD5Sum:
- fddd2cdfbae35cf43410ae294d5d73fd 2060 main/binary-amd64/Packages
- 001c3959a8d2009eb781762b571df9c0 1005 main/binary-amd64/Packages.gz
+ f350eabe2e529ccc605554481e297c43 4118 main/binary-amd64/Packages
+ cf8ca9f0d05823e0976bc04e791e3bbd 1156 main/binary-amd64/Packages.gz
  071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
 SHA1:
- 91b67d57e8893c61f1e5096f38d8fb36d65619ae 2060 main/binary-amd64/Packages
- 80048062730a6f5256e3024a681b5472f1e703fc 1005 main/binary-amd64/Packages.gz
+ 2edba833e157636c73edaa452349f7c3befcbe0d 4118 main/binary-amd64/Packages
+ 5efc2656987f2b28bc532fb4c6e5b8211a1c4c36 1156 main/binary-amd64/Packages.gz
  8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
 SHA256:
- e72284a93fef00f927c6c0f41b0e78d337749e9ec5ec4f3fdb9a74b0ccd561e5 2060 main/binary-amd64/Packages
- a82f6caed69e21a85c0293c34f04b564a4a331eeb493a8d54cfca85dc488aa45 1005 main/binary-amd64/Packages.gz
+ a2f6eff7c637226043eb6db56f411bdf635982ad236bae8f24a9f645209a40ec 4118 main/binary-amd64/Packages
+ e2a30bcb38da345c77c71c3888ab9fcaf1e4c9608dc38a90f2aac30da463b0af 1156 main/binary-amd64/Packages.gz
  07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release
