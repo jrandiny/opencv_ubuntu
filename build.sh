@@ -9,7 +9,7 @@ cvPrefix="${1:0:1}"
 mkdir ~/output
 cp -r DEBIAN ~/output/DEBIAN
 mv ~/output/DEBIAN/control-${ubuntuVersion} ~/output/DEBIAN/control
-sed -i "/Version: <cvversion>/c\Version: ${cvVersion}" ~/output/DEBIAN/control
+sed -i "/Version: <cvversion>/c\Version: ${cvVersion}~${UBUNTU_CODENAME}" ~/output/DEBIAN/control
 sed -i "/Package: <cvpackage>/c\Package: opencv${cvPrefix}" ~/output/DEBIAN/control
 
 cat ~/output/DEBIAN/control
@@ -45,7 +45,8 @@ make install DESTDIR=~/output/
 
 # Create .deb
 cd ~
+DEB_NAME="opencv-$cvVersion-$UBUNTU_CODENAME.deb"
 cat output/DEBIAN/control
-dpkg-deb -b output/ opencv-$cvVersion.deb
-cp opencv-$cvVersion.deb $GITHUB_WORKSPACE
-ffsend upload opencv-$cvVersion.deb
+dpkg-deb -b output/ $DEB_NAME
+cp $DEB_NAME $GITHUB_WORKSPACE
+ffsend upload $DEB_NAME

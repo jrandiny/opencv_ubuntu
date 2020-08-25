@@ -14,10 +14,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Download depedencies
-        run: ./dep.sh
-      - name: Build deb
-        run: ./build.sh ${{ matrix.cv-version }} ${{ matrix.os }}
 
       - name: Set Ubuntu codename (Bionic)
         if: ${{ matrix.os == 'ubuntu-18.04'}}
@@ -25,6 +21,11 @@ jobs:
       - name: Set Ubuntu codename (Focal)
         if: ${{ matrix.os == 'ubuntu-20.04'}}
         run: echo '::set-env name=UBUNTU_CODENAME::focal'
+
+      - name: Download depedencies
+        run: ./dep.sh
+      - name: Build deb
+        run: ./build.sh ${{ matrix.cv-version }} ${{ matrix.os }}
 
       - name: Github pages APT repo
         uses: jrandiny/apt-repo-action@v2.0.1
@@ -34,7 +35,7 @@ jobs:
           repo_supported_version: |
             bionic
             focal
-          file: opencv-${{ matrix.cv-version }}.deb
+          file: opencv-${{ matrix.cv-version }}-${{ env.UBUNTU_CODENAME }}.deb
           file_target_version: ${{ env.UBUNTU_CODENAME }}
           private_key: ${{ secrets.APT_SIGNING_KEY }}
           key_passphrase: ${{ secrets.APT_PASSPHRASE }}
