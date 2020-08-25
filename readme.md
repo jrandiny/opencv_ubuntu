@@ -14,7 +14,11 @@ wget -O - https://jrandiny.github.io/opencv_ubuntu/public.key | sudo apt-key add
 ```
 Add repo
 ```
+# Ubuntu 18.04
 sudo add-apt-repository "deb [arch=amd64] https://jrandiny.github.io/opencv_ubuntu/repo bionic main"
+
+# Ubuntu 20.04 (Experimental)
+sudo add-apt-repository "deb [arch=amd64] https://jrandiny.github.io/opencv_ubuntu/repo focal main"
 ```
 
 Update and install
