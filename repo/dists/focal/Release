@@ -1,0 +1,17 @@
+Codename: focal
+Date: Tue, 25 Aug 2020 02:59:21 UTC
+Architectures: amd64
+Components: main
+Description: jrandiny/opencv_ubuntu
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release

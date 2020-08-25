@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: focal
+Date: Tue, 25 Aug 2020 02:59:21 UTC
+Architectures: amd64
+Components: main
+Description: jrandiny/opencv_ubuntu
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 071433c6a29179ec3f37f84cdbb72f12 72 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 8ae492b6d025da2a0a319d236bfdf15e4595cd6a 72 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 07312b03371d8e9e49f9d78db8dcb1aac370ca5e80986da6574b326c6690b720 72 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEB4d2pc+UBEyypcX43UrhKon79ewFAl9EfooACgkQ3UrhKon7
+9ezHQRAAut9VKxhkfrbFS+n8ShZ5Pr/BrwkcaopIJEKIUhK9Xc1EtS8rJh3pTziX
+TCZKWxM72kmEBWPIo8XgV8+2IUkxBR5kBHurtJBUekA0QHZMwUejWNxHViLpzOSe
+rZUQTKtQO4hbRHsZFyb7E4x6oDH21FGNMi7KKQO0nUDCeT/f4/wgqoyp4htuI+sd
+eSnECyXvKb9w0DbQnmc+2T+uhL4ZN9Zi9GGlDJUHxG9o8Vy/Giw9w7VxkN3l867Z
+KeFWZQiqgC61+iAJJRVJ0Oeto4klVPuHSlTYJSazbqULnNxTGgef9x00azot0twV
+jLjPS93jdB76DXxrE2LVcd1CpeKeN0JKYO8UGjHfKO4XZ3+Ia4afP/wpb86c5KxT
+x4TGrFuW4jbTmMExz+pL5p8FZ2pUJDvylO7fqVI4Y2S+2ZoALr4itBOsyz8gJsqi
+wjE7sLOxbSDjSdD4UT2w/LzzqTBCqkamo+93j6YZko9M+/FkYrvQBJs9McB9ugbP
+pOr678FqigGT5fJ4mgz0G8d2PkBvp9CL9gxOYnPlRQ4TX/rktwboxcZXZl0+OStY
+lMjB/xYTy74SrTEsWRlfw1tGOZm5tZ+f5JS1HbzwewZRdMEh16+icJd2RoHsibRF
+ZcetEdnT8ScOv6z1boBnr6aXh+P+cTPHteOTyUBTw/HIdJuVHf0=
+=s/3e
+-----END PGP SIGNATURE-----

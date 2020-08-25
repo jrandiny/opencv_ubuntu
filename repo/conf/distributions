@@ -5,3 +5,10 @@ Components: main
 SignWith: 88E2E4767C6AF19D067399FFFB450F29394B696F
 
 
+Description: jrandiny/opencv_ubuntu
+Codename: focal
+Architectures: amd64
+Components: main
+SignWith: 88E2E4767C6AF19D067399FFFB450F29394B696F
+
+
