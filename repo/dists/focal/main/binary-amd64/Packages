@@ -1,0 +1,14 @@
+Package: opencv3
+Version: 3.4.11~focal
+Architecture: amd64
+Maintainer: jrandiny <jrandiny@gmail.com>
+Depends: pkg-config, qt5-default, x264, v4l-utils, gir1.2-atk-1.0, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-2.0, gir1.2-pango-1.0, hdf5-helpers, libaec0, libarchive13, libatlas3-base, libavcodec58, libavformat58, libavresample4, libavutil56, libbluray2, libchromaprint1, libclang1-6.0, libcrystalhd3, libdc1394-22, libdouble-conversion3, libevdev2, libfaac0, libffms2-4, libgd3, libgflags2.2, libgles1, libgles2, libglu1-mesa, libgme0, libgoogle-glog0v5, libgpac4, libgphoto2-6, libgphoto2-port12, libgsm1, libgstreamer-gl1.0-0, libgstreamer-plugins-base1.0-0, libgstreamer1.0-0, libgudev-1.0-0, libhdf5-103, libhdf5-cpp-103, libinput-bin, libinput10, libmp3lame0, libmpg123-0, libmtdev1, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopengl0, libopenjp2-7, libopenmpt0, libopus0, liborc-0.4-0, libprotobuf-lite17, libprotobuf17, libprotoc17, libqt5concurrent5, libqt5core5a, libqt5dbus5, libqt5gui5, libqt5network5, libqt5printsupport5, libqt5sql5, libqt5test5, libqt5widgets5, libqt5xml5, libraw1394-11, librhash0, libshine3, libsnappy1v5, libsoxr0, libspeex1, libssh-gcrypt-4, libswresample3, libswscale5, libsz2, libtbb2, libtheora0, libtwolame0, libv4l-0, libv4l2rds0, libv4lconvert0, libva-drm2, libva-x11-2, libva2, libvdpau1, libvorbis0a, libvorbisenc2, libvorbisfile3, libvpx6, libwacom-common, libwacom2, libwavpack1, libwayland-bin, libwebp6, libwebpmux3, libx264-155, libx265-179, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render-util0, libxcb-xinerama0, libxcb-xkb1, libxine2-bin, libxkbcommon-x11-0, libxml2-utils, libxvidcore4, libzvbi-common, libzvbi0, libeigen3-dev, libopenexr24
+Priority: standard
+Section: libs
+Filename: pool/main/o/opencv3/opencv3_3.4.11~focal_amd64.deb
+Size: 18089520
+SHA256: dc6d513be95f89021b4a17b11475ba7bd6eadf9960b1d2e430f2e76a99332c78
+SHA1: 50a3ba24ffd063092429440a416f406495745f0d
+MD5sum: 73c0ef20551863013ace6a7d1ff003c6
+Description: Computer vision library
+
