@@ -49,4 +49,3 @@ DEB_NAME="opencv-$cvVersion-$UBUNTU_CODENAME.deb"
 cat output/DEBIAN/control
 dpkg-deb -b output/ $DEB_NAME
 cp $DEB_NAME $GITHUB_WORKSPACE
-ffsend upload $DEB_NAME
