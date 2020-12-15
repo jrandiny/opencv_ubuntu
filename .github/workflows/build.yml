@@ -17,11 +17,11 @@ jobs:
 
       - name: Set Ubuntu codename (Bionic)
         if: ${{ matrix.os == 'ubuntu-18.04'}}
-        run: echo '::set-env name=UBUNTU_CODENAME::bionic'
+        run: echo "UBUNTU_CODENAME=bionic" >> $GITHUB_ENV
       - name: Set Ubuntu codename (Focal)
         if: ${{ matrix.os == 'ubuntu-20.04'}}
-        run: echo '::set-env name=UBUNTU_CODENAME::focal'
-
+        run: echo "UBUNTU_CODENAME=focal" >> $GITHUB_ENV
+        
       - name: Download depedencies
         run: ./dep.sh
       - name: Build deb
